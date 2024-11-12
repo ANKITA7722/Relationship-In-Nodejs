@@ -6,9 +6,9 @@ const profileScema=new mongoose.Schema({
         unique:true
     },
     firstname:String,
-    secoundname:String
+    secondname:String
 })
 
 
 
-module.exports = mongoose.model();
+module.exports = mongoose.model("Profile", profileScema);
