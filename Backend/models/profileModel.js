@@ -9,6 +9,4 @@ const profileScema=new mongoose.Schema({
     secondname:String
 })
 
-
-
 module.exports = mongoose.model("Profile", profileScema);
